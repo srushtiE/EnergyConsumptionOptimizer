@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> WiFi Power Switch </title>
+    <link rel='stylesheet' type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel='stylesheet' type="text/css" href="/css/interface.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/interface.js"></script>
+    <script type="text/javascript" src="/js/ajaxq.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron-new">
+      <form class="form" method="POST" action="/interface" name="loginForm" id="#loginForm">
+		<div class="row">
+			<h1 style="padding-left: 11%;">Login as Admin to Continue</h1>
+			<div class="col col-xs-12">
+				<label><h3>Enter Username</h3></label>
+				<input class="form-control input-lg" type="text" placeholder="Username" id="#username"></input>
+			</div>
+			<div class="col col-xs-12">
+				<label><h3>Enter Username</h3></label>
+				<input class="form-control input-lg"  type="text" placeholder="Password" id="#password"></input>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 4%; padding-left: 3%; padding-right: 3%;">
+			<button type="submit" value="Login" id="#login" class="btn btn-block btn-md btn-success">Login</button>
+		</div>
+	  </form>
+	</div>
+  </body>
+</html>
