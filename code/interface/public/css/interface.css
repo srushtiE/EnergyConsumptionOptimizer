@@ -1,0 +1,14 @@
+.voffset30 { margin-top: 50px; }
+
+.text30 {font-size: 20px; color: #FFFFFF;}
+
+.text31 {font-size: 35px; color: #FFFFFF; margin-left: 20px; margin-top: 10px;}
+
+.text20 {font-size: 20px; margin-top: 8px;}
+
+.text5 {margin-left: -70px;}
+
+#chart_div {
+    width: 500px;
+    height: 360px;
+}

@@ -1,0 +1,26 @@
+doctype
+html
+	head
+		title WiFi Power Switch
+		link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
+		link(rel='stylesheet', href="/css/interface.css")
+		script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(src="/js/interface.js")
+		script(src="/js/ajaxq.js")
+		script(src="https://www.google.com/jsapi")
+	body(background='/welcomePage.png', style='background-repeat:no-repeat; background-size:100% 125%')
+		.container
+			.row						
+				.col-md-8
+					.row.voffset250.text31
+						div Energy Consumption Optimizer
+					.row.voffset30.text30
+						.col-md-4
+							button.btn.btn-block.btn-lg.btn-success#1 On
+						.col-md-4
+							button.btn.btn-block.btn-lg.btn-danger#2 Off
+						.col-md-4
+							div#powerDisplay Power:
+					.row.voffset30.text30
+						.col-md-10
+							div#chart_div
